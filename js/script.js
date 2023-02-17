@@ -46,3 +46,9 @@ var app = new Vue({
     col: server_data
   }
 });
+var app2= new Vue({
+  el: '#autor',
+  data: {
+    nombre:'Mohamed tajni'
+  }
+});

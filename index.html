@@ -11,10 +11,12 @@
 
     <body>
 
-        <h1 id="autor">Autor:Tu nombre aquí</h1>
+        
 
         <!-- https://vuejs.org/v2/guide/index.html -->
+        <h1 id="autor">Autor: {{nombre}}</h1>
         <div id="app">
+          
             <div class="jumbotron">
                 <h1 id=title>{{col.collection.title}}</h1>
                
@@ -35,7 +37,9 @@
                           </dl>
                         </div>
                    <div>
-                    <a v-bind:href="i.href">boton</a>
+                    
+                    
+                    <a class="btn btn-primary"  v-bind:href="i.href" role="button">Ver</a>
                    </div>
                       
                      </div>
